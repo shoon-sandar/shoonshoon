@@ -1,0 +1,48 @@
+// out put different datatype************
+
+//int, string, float ,character
+//e.g const valueInt=10, const valueString="Shoon Shoon", const valueFloat=2.9, const valueChar='L'
+
+//how to output ************------------------------------------------------------------------------------------
+        console.log(valueInt, valueString, valueFloat, valueChar)
+                    10      , Shoon Shoon, 2.9       , L
+
+//array ************
+//how to output array's data ==> array's Name[index]
+//e.g const studentMarks=[100, 20, 90, 25]
+                            0,  1,  2,  3
+        console.log(studentMarks[0]) ==> // 100
+        console.log(studentMarks[3]) ==> // 25
+
+//object ************
+//how to output object's data ==> object's name.key
+                                  sampleObejct.name
+//e.g const sampleObejct={
+    //key://value
+    name:"Shoon Shoon",
+    age:23
+}
+        console.log(sampleObejct.name) ==> Shoon Shoon
+        console.log(sampleObejct.age) ==> 23
+
+// NaN=not a number
+// null=nothing=undefined
+
+// ************** Function တခုဘယ်က စအလုပ်လုပ်လဲ ဆိုတော့ *****************
+// သူ့ကို စခေါ်တဲ့နေရာ က စပီး အလုပ်လုပ်တယ်
+
+// ဉပမာ။ correctStudentData=(wrongData)=> {} ဒါက function ကြေညာတာဘဲ ရှိသေးတာပါ
+// အာ့ဆို function ကို ဘလိုခေါ်မလဲ ရှင်းပါတယ် function name နဲ့ ဘဲ ခေါ်ပါမယ်
+
+// ဉပမာ။ ဒီမှာ ဆိုရင် function name က correctStudentData ဖြစ်တဲ့ အတွက်ကြောင့်
+// correctStudentData() ဆိုပီး ခေါ်ပါ့မယ်
+
+// အိုခေ။
+// အဲ့လို correctStudentData(student1) ဆိုပီး ခေါ်လိုက်တော့ မှ function()
+// စအလုပ်လုပ်ပါတယ်
+
+// Function တခု အတွင်းမှာ parameter ပေးထားတဲ့ နာမည်နဲ့ ဘဲ ခေါ်သုံးရပါမယ်
+
+// ဒီတော့ ဘယ်နေရာက parameter ပေးထားတဲ့ နာမည် ဆိုတာ သိနိုင်မလဲ ဆိုတော့
+// function ကြေညာခဲ့တဲ့ ညီမျှခြင်း နစ်ခုရဲ့ ကြား လက်သည်းကွင်းထဲ က ခေါ်သုံးရမဲ့
+// variable name ဖစ်ပါတယ်
